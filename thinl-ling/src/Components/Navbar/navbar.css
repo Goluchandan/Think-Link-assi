@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800;900&family=Montserrat&display=swap");
+
+.box {
+  background-color: #811434;
+}
+.cor {
+  color: #fbe1d0;
+}
+.navbar-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  height: 56px;
+  width: 100%;
+  background-color: #811434;
+}
+.navbar-container > div {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0px 24px;
+}
+.nav-left {
+  justify-content: space-between;
+}
+.nav-left > h3 {
+  font-size: 20px;
+  margin-top: 5px;
+  color: #fbe1d0;
+  display: flex;
+  align-items: center;
+  letter-spacing: 1px;
+
+  font-family: "Montserrat", sans-serif;
+}
+.nav-left > h3 svg {
+  text-align: center;
+}
+.input-div {
+  background-color: white;
+  border-radius: 5px;
+  height: 32px;
+  width: 354px;
+  display: flex;
+  padding: 0px 15px;
+  align-items: center;
+}
+.input-div > input {
+  border: none;
+  width: 270px;
+  height: 20px;
+  margin-left: 12px;
+  outline: none;
+}
+
+.input-div > svg {
+  color: gray;
+}
+.nav-right {
+  justify-content: right;
+  gap: 25px;
+}
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  gap: 15px;
+}
+.profile > h3 {
+  font-size: 18px;
+  margin-top: 5px;
+  letter-spacing: 1px;
+}
+.profile > svg {
+  font-weight: 500;
+}
+.profile > img {
+  border: 2px solid white;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+}

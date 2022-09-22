@@ -1,0 +1,53 @@
+.card-container {
+  padding: 35px;
+}
+.add-wine {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.add-wine > p {
+  color: #8c8ca1;
+  font-size: 20px;
+}
+.add-wine > button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ef4859;
+  color: #fff;
+  letter-spacing: 1px;
+  gap: 5px;
+  border: none;
+  padding: 8px 15px;
+}
+
+.overview-card {
+  display: grid;
+  margin-top: 25px;
+  grid-template-columns: repeat(4, 1fr);
+  /* grid-template-rows: repeat(1, 88px); */
+  width: 100%;
+  gap: 30px;
+}
+.overview-card > div {
+  height: 88px;
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 10px 20px;
+  text-align: left;
+  box-shadow: 0px -2px 0px #f7f6f400, 0px 2px 11px rgba(0, 0, 0, 0.06);
+}
+.overview-card > div > h2 {
+  line-height: 3px;
+  font-size: 24px;
+}
+
+.overview-card > div > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.overview-card > div > div > p {
+  margin-top: 8px;
+}
